@@ -43,7 +43,7 @@ The dataset used in this project is the [Credit Card Fraud Detection dataset](ht
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/Credit-Card-Fraud-Detection-System-Project.git
+    git clone https://github.com/chekz1321/Credit-Card-Fraud-Detection-System-Project.git
     cd Credit-Card-Fraud-Detection-System-Project
     ```
 
@@ -80,11 +80,10 @@ The dataset used in this project is the [Credit Card Fraud Detection dataset](ht
 
 The project includes training various machine learning models, such as:
 
-- Logistic Regression
 - Decision Trees
 - Random Forest
-- Gradient Boosting
-- Support Vector Machines
+- Light GBM
+- XG Boost
 - Neural Networks
 
 Each model is trained and evaluated to determine the best performing algorithm for fraud detection.
@@ -97,9 +96,8 @@ Model performance is evaluated using metrics such as:
 - Precision
 - Recall
 - F1-Score
-- ROC-AUC Score
 
-Confusion matrices and ROC curves are also used to visualize model performance.
+Confusion matrices are also used to visualize model performance.
 
 ## Results
 
